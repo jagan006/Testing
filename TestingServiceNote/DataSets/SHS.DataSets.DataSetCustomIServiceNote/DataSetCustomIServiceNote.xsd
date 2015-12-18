@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetCustomIServiceNote" targetNamespace="http://tempuri.org/DataSetCustomIServiceNote.xsd" xmlns:mstns="http://tempuri.org/DataSetCustomIServiceNote.xsd" xmlns="http://tempuri.org/DataSetCustomIServiceNote.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="CaminoSmartcareDEV40ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CaminoSmartcareDEV40ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SHS.DataSets.DataSetCustomIServiceNote.Properties.Settings.GlobalReference.Default.CaminoSmartcareDEV40ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetCustomIServiceNote" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DataSetCustomIServiceNote" msprop:Generator_UserDSName="DataSetCustomIServiceNote" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CustomDocumentIndividualServiceNotes" msprop:Generator_UserTableName="CustomDocumentIndividualServiceNotes" msprop:Generator_RowDeletedName="CustomDocumentIndividualServiceNotesRowDeleted" msprop:Generator_TableClassName="CustomDocumentIndividualServiceNotesDataTable" msprop:Generator_RowChangedName="CustomDocumentIndividualServiceNotesRowChanged" msprop:Generator_RowClassName="CustomDocumentIndividualServiceNotesRow" msprop:Generator_RowChangingName="CustomDocumentIndividualServiceNotesRowChanging" msprop:Generator_RowEvArgName="CustomDocumentIndividualServiceNotesRowChangeEvent" msprop:Generator_RowEvHandlerName="CustomDocumentIndividualServiceNotesRowChangeEventHandler" msprop:Generator_TablePropName="CustomDocumentIndividualServiceNotes" msprop:Generator_TableVarName="tableCustomDocumentIndividualServiceNotes" msprop:Generator_RowDeletingName="CustomDocumentIndividualServiceNotesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DocumentVersionId" msprop:Generator_UserColumnName="DocumentVersionId" msprop:Generator_ColumnPropNameInRow="DocumentVersionId" msprop:Generator_ColumnVarNameInTable="columnDocumentVersionId" msprop:Generator_ColumnPropNameInTable="DocumentVersionIdColumn" type="xs:int" />
+              <xs:element name="CreatedBy" msprop:Generator_UserColumnName="CreatedBy" msprop:Generator_ColumnPropNameInRow="CreatedBy" msprop:Generator_ColumnVarNameInTable="columnCreatedBy" msprop:Generator_ColumnPropNameInTable="CreatedByColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CreatedDate" msprop:Generator_UserColumnName="CreatedDate" msprop:Generator_ColumnPropNameInRow="CreatedDate" msprop:Generator_ColumnVarNameInTable="columnCreatedDate" msprop:Generator_ColumnPropNameInTable="CreatedDateColumn" type="xs:dateTime" />
+              <xs:element name="ModifiedBy" msprop:Generator_UserColumnName="ModifiedBy" msprop:Generator_ColumnPropNameInRow="ModifiedBy" msprop:Generator_ColumnVarNameInTable="columnModifiedBy" msprop:Generator_ColumnPropNameInTable="ModifiedByColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ModifiedDate" msprop:Generator_UserColumnName="ModifiedDate" msprop:Generator_ColumnPropNameInRow="ModifiedDate" msprop:Generator_ColumnVarNameInTable="columnModifiedDate" msprop:Generator_ColumnPropNameInTable="ModifiedDateColumn" type="xs:dateTime" />
+              <xs:element name="RecordDeleted" msprop:Generator_UserColumnName="RecordDeleted" msprop:Generator_ColumnPropNameInRow="RecordDeleted" msprop:Generator_ColumnVarNameInTable="columnRecordDeleted" msprop:Generator_ColumnPropNameInTable="RecordDeletedColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DeletedBy" msprop:Generator_UserColumnName="DeletedBy" msprop:Generator_ColumnPropNameInRow="DeletedBy" msprop:Generator_ColumnVarNameInTable="columnDeletedBy" msprop:Generator_ColumnPropNameInTable="DeletedByColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DeletedDate" msprop:Generator_UserColumnName="DeletedDate" msprop:Generator_ColumnPropNameInRow="DeletedDate" msprop:Generator_ColumnVarNameInTable="columnDeletedDate" msprop:Generator_ColumnPropNameInTable="DeletedDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ShowSelectedItems" msprop:Generator_UserColumnName="ShowSelectedItems" msprop:Generator_ColumnPropNameInRow="ShowSelectedItems" msprop:Generator_ColumnVarNameInTable="columnShowSelectedItems" msprop:Generator_ColumnPropNameInTable="ShowSelectedItemsColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GoalsOutcomesStrategies" msprop:Generator_UserColumnName="GoalsOutcomesStrategies" msprop:Generator_ColumnPropNameInRow="GoalsOutcomesStrategies" msprop:Generator_ColumnVarNameInTable="columnGoalsOutcomesStrategies" msprop:Generator_ColumnPropNameInTable="GoalsOutcomesStrategiesColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NameOfService" msprop:Generator_UserColumnName="NameOfService" msprop:Generator_ColumnPropNameInRow="NameOfService" msprop:Generator_ColumnVarNameInTable="columnNameOfService" msprop:Generator_ColumnPropNameInTable="NameOfServiceColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ServiceEvent" msprop:Generator_UserColumnName="ServiceEvent" msprop:Generator_ColumnPropNameInRow="ServiceEvent" msprop:Generator_ColumnVarNameInTable="columnServiceEvent" msprop:Generator_ColumnPropNameInTable="ServiceEventColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PertinentEvent" msprop:Generator_UserColumnName="PertinentEvent" msprop:Generator_ColumnPropNameInRow="PertinentEvent" msprop:Generator_ColumnVarNameInTable="columnPertinentEvent" msprop:Generator_ColumnPropNameInTable="PertinentEventColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Progress" msprop:Generator_UserColumnName="Progress" msprop:Generator_ColumnPropNameInRow="Progress" msprop:Generator_ColumnVarNameInTable="columnProgress" msprop:Generator_ColumnPropNameInTable="ProgressColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LackOfProgress" msprop:Generator_UserColumnName="LackOfProgress" msprop:Generator_ColumnPropNameInRow="LackOfProgress" msprop:Generator_ColumnVarNameInTable="columnLackOfProgress" msprop:Generator_ColumnPropNameInTable="LackOfProgressColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProgressComments" msprop:Generator_UserColumnName="ProgressComments" msprop:Generator_ColumnPropNameInRow="ProgressComments" msprop:Generator_ColumnVarNameInTable="columnProgressComments" msprop:Generator_ColumnPropNameInTable="ProgressCommentsColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FollowUpNeeded" msprop:Generator_UserColumnName="FollowUpNeeded" msprop:Generator_ColumnPropNameInRow="FollowUpNeeded" msprop:Generator_ColumnVarNameInTable="columnFollowUpNeeded" msprop:Generator_ColumnPropNameInTable="FollowUpNeededColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CustomIndividualServiceNoteGoals" msprop:Generator_UserTableName="CustomIndividualServiceNoteGoals" msprop:Generator_RowDeletedName="CustomIndividualServiceNoteGoalsRowDeleted" msprop:Generator_TableClassName="CustomIndividualServiceNoteGoalsDataTable" msprop:Generator_RowChangedName="CustomIndividualServiceNoteGoalsRowChanged" msprop:Generator_RowClassName="CustomIndividualServiceNoteGoalsRow" msprop:Generator_RowChangingName="CustomIndividualServiceNoteGoalsRowChanging" msprop:Generator_RowEvArgName="CustomIndividualServiceNoteGoalsRowChangeEvent" msprop:Generator_RowEvHandlerName="CustomIndividualServiceNoteGoalsRowChangeEventHandler" msprop:Generator_TablePropName="CustomIndividualServiceNoteGoals" msprop:Generator_TableVarName="tableCustomIndividualServiceNoteGoals" msprop:Generator_RowDeletingName="CustomIndividualServiceNoteGoalsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IndividualServiceNoteGoalId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="IndividualServiceNoteGoalId" msprop:Generator_ColumnPropNameInRow="IndividualServiceNoteGoalId" msprop:Generator_ColumnVarNameInTable="columnIndividualServiceNoteGoalId" msprop:Generator_ColumnPropNameInTable="IndividualServiceNoteGoalIdColumn" type="xs:int" />
+              <xs:element name="CreatedBy" msprop:Generator_UserColumnName="CreatedBy" msprop:Generator_ColumnPropNameInRow="CreatedBy" msprop:Generator_ColumnVarNameInTable="columnCreatedBy" msprop:Generator_ColumnPropNameInTable="CreatedByColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CreatedDate" msprop:Generator_UserColumnName="CreatedDate" msprop:Generator_ColumnPropNameInRow="CreatedDate" msprop:Generator_ColumnVarNameInTable="columnCreatedDate" msprop:Generator_ColumnPropNameInTable="CreatedDateColumn" type="xs:dateTime" />
+              <xs:element name="ModifiedBy" msprop:Generator_UserColumnName="ModifiedBy" msprop:Generator_ColumnPropNameInRow="ModifiedBy" msprop:Generator_ColumnVarNameInTable="columnModifiedBy" msprop:Generator_ColumnPropNameInTable="ModifiedByColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ModifiedDate" msprop:Generator_UserColumnName="ModifiedDate" msprop:Generator_ColumnPropNameInRow="ModifiedDate" msprop:Generator_ColumnVarNameInTable="columnModifiedDate" msprop:Generator_ColumnPropNameInTable="ModifiedDateColumn" type="xs:dateTime" />
+              <xs:element name="RecordDeleted" msprop:Generator_UserColumnName="RecordDeleted" msprop:Generator_ColumnPropNameInRow="RecordDeleted" msprop:Generator_ColumnVarNameInTable="columnRecordDeleted" msprop:Generator_ColumnPropNameInTable="RecordDeletedColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DeletedBy" msprop:Generator_UserColumnName="DeletedBy" msprop:Generator_ColumnPropNameInRow="DeletedBy" msprop:Generator_ColumnVarNameInTable="columnDeletedBy" msprop:Generator_ColumnPropNameInTable="DeletedByColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DeletedDate" msprop:Generator_UserColumnName="DeletedDate" msprop:Generator_ColumnPropNameInRow="DeletedDate" msprop:Generator_ColumnVarNameInTable="columnDeletedDate" msprop:Generator_ColumnPropNameInTable="DeletedDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DocumentVersionId" msprop:Generator_UserColumnName="DocumentVersionId" msprop:Generator_ColumnPropNameInRow="DocumentVersionId" msprop:Generator_ColumnVarNameInTable="columnDocumentVersionId" msprop:Generator_ColumnPropNameInTable="DocumentVersionIdColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="GoalId" msprop:Generator_UserColumnName="GoalId" msprop:Generator_ColumnPropNameInRow="GoalId" msprop:Generator_ColumnVarNameInTable="columnGoalId" msprop:Generator_ColumnPropNameInTable="GoalIdColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="GoalNumber" msprop:Generator_UserColumnName="GoalNumber" msprop:Generator_ColumnPropNameInRow="GoalNumber" msprop:Generator_ColumnVarNameInTable="columnGoalNumber" msprop:Generator_ColumnPropNameInTable="GoalNumberColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GoalText" msprop:Generator_UserColumnName="GoalText" msprop:Generator_ColumnPropNameInRow="GoalText" msprop:Generator_ColumnVarNameInTable="columnGoalText" msprop:Generator_ColumnPropNameInTable="GoalTextColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CustomGoalActive" msprop:Generator_UserColumnName="CustomGoalActive" msprop:Generator_ColumnPropNameInRow="CustomGoalActive" msprop:Generator_ColumnVarNameInTable="columnCustomGoalActive" msprop:Generator_ColumnPropNameInTable="CustomGoalActiveColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CustomIndividualServiceNoteObjectives" msprop:Generator_UserTableName="CustomIndividualServiceNoteObjectives" msprop:Generator_RowDeletedName="CustomIndividualServiceNoteObjectivesRowDeleted" msprop:Generator_TableClassName="CustomIndividualServiceNoteObjectivesDataTable" msprop:Generator_RowChangedName="CustomIndividualServiceNoteObjectivesRowChanged" msprop:Generator_RowClassName="CustomIndividualServiceNoteObjectivesRow" msprop:Generator_RowChangingName="CustomIndividualServiceNoteObjectivesRowChanging" msprop:Generator_RowEvArgName="CustomIndividualServiceNoteObjectivesRowChangeEvent" msprop:Generator_RowEvHandlerName="CustomIndividualServiceNoteObjectivesRowChangeEventHandler" msprop:Generator_TablePropName="CustomIndividualServiceNoteObjectives" msprop:Generator_TableVarName="tableCustomIndividualServiceNoteObjectives" msprop:Generator_RowDeletingName="CustomIndividualServiceNoteObjectivesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IndividualServiceNoteObjectiveId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="IndividualServiceNoteObjectiveId" msprop:Generator_ColumnPropNameInRow="IndividualServiceNoteObjectiveId" msprop:Generator_ColumnVarNameInTable="columnIndividualServiceNoteObjectiveId" msprop:Generator_ColumnPropNameInTable="IndividualServiceNoteObjectiveIdColumn" type="xs:int" />
+              <xs:element name="CreatedBy" msprop:Generator_UserColumnName="CreatedBy" msprop:Generator_ColumnPropNameInRow="CreatedBy" msprop:Generator_ColumnVarNameInTable="columnCreatedBy" msprop:Generator_ColumnPropNameInTable="CreatedByColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CreatedDate" msprop:Generator_UserColumnName="CreatedDate" msprop:Generator_ColumnPropNameInRow="CreatedDate" msprop:Generator_ColumnVarNameInTable="columnCreatedDate" msprop:Generator_ColumnPropNameInTable="CreatedDateColumn" type="xs:dateTime" />
+              <xs:element name="ModifiedBy" msprop:Generator_UserColumnName="ModifiedBy" msprop:Generator_ColumnPropNameInRow="ModifiedBy" msprop:Generator_ColumnVarNameInTable="columnModifiedBy" msprop:Generator_ColumnPropNameInTable="ModifiedByColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ModifiedDate" msprop:Generator_UserColumnName="ModifiedDate" msprop:Generator_ColumnPropNameInRow="ModifiedDate" msprop:Generator_ColumnVarNameInTable="columnModifiedDate" msprop:Generator_ColumnPropNameInTable="ModifiedDateColumn" type="xs:dateTime" />
+              <xs:element name="RecordDeleted" msprop:Generator_UserColumnName="RecordDeleted" msprop:Generator_ColumnPropNameInRow="RecordDeleted" msprop:Generator_ColumnVarNameInTable="columnRecordDeleted" msprop:Generator_ColumnPropNameInTable="RecordDeletedColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DeletedBy" msprop:Generator_UserColumnName="DeletedBy" msprop:Generator_ColumnPropNameInRow="DeletedBy" msprop:Generator_ColumnVarNameInTable="columnDeletedBy" msprop:Generator_ColumnPropNameInTable="DeletedByColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DeletedDate" msprop:Generator_UserColumnName="DeletedDate" msprop:Generator_ColumnPropNameInRow="DeletedDate" msprop:Generator_ColumnVarNameInTable="columnDeletedDate" msprop:Generator_ColumnPropNameInTable="DeletedDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DocumentVersionId" msprop:Generator_UserColumnName="DocumentVersionId" msprop:Generator_ColumnPropNameInRow="DocumentVersionId" msprop:Generator_ColumnVarNameInTable="columnDocumentVersionId" msprop:Generator_ColumnPropNameInTable="DocumentVersionIdColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="GoalId" msprop:Generator_UserColumnName="GoalId" msprop:Generator_ColumnPropNameInRow="GoalId" msprop:Generator_ColumnVarNameInTable="columnGoalId" msprop:Generator_ColumnPropNameInTable="GoalIdColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ObjectiveNumber" msprop:Generator_UserColumnName="ObjectiveNumber" msprop:Generator_ColumnPropNameInRow="ObjectiveNumber" msprop:Generator_ColumnVarNameInTable="columnObjectiveNumber" msprop:Generator_ColumnPropNameInTable="ObjectiveNumberColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CustomObjectiveActive" msprop:Generator_UserColumnName="CustomObjectiveActive" msprop:Generator_ColumnPropNameInRow="CustomObjectiveActive" msprop:Generator_ColumnVarNameInTable="columnCustomObjectiveActive" msprop:Generator_ColumnPropNameInTable="CustomObjectiveActiveColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInTable="StatusColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ObjectiveText" msprop:Generator_UserColumnName="ObjectiveText" msprop:Generator_ColumnPropNameInRow="ObjectiveText" msprop:Generator_ColumnVarNameInTable="columnObjectiveText" msprop:Generator_ColumnPropNameInTable="ObjectiveTextColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CustomDocumentIndividualServiceNotes" />
+      <xs:field xpath="mstns:DocumentVersionId" />
+    </xs:unique>
+    <xs:unique name="CustomIndividualServiceNoteGoals_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CustomIndividualServiceNoteGoals" />
+      <xs:field xpath="mstns:IndividualServiceNoteGoalId" />
+    </xs:unique>
+    <xs:unique name="CustomIndividualServiceNoteObjectives_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CustomIndividualServiceNoteObjectives" />
+      <xs:field xpath="mstns:IndividualServiceNoteObjectiveId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

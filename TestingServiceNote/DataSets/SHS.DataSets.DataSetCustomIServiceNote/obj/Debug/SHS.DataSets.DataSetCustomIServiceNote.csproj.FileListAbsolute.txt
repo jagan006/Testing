@@ -1,0 +1,6 @@
+F:\DataSets\SHS.DataSets.DataSetCustomIServiceNote\bin\Debug\SHS.DataSets.DataSetCustomIServiceNote.dll.config
+F:\DataSets\SHS.DataSets.DataSetCustomIServiceNote\bin\Debug\SHS.DataSets.DataSetCustomIServiceNote.dll
+F:\DataSets\SHS.DataSets.DataSetCustomIServiceNote\bin\Debug\SHS.DataSets.DataSetCustomIServiceNote.pdb
+F:\DataSets\SHS.DataSets.DataSetCustomIServiceNote\obj\Debug\ResolveAssemblyReference.cache
+F:\DataSets\SHS.DataSets.DataSetCustomIServiceNote\obj\Debug\SHS.DataSets.DataSetCustomIServiceNote.dll
+F:\DataSets\SHS.DataSets.DataSetCustomIServiceNote\obj\Debug\SHS.DataSets.DataSetCustomIServiceNote.pdb
